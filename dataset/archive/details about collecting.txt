@@ -1,0 +1,4 @@
+on 19 janueary - 1st crawling, the first downloading.
+there were 5,448 addresses are labeled as phishing address.
+the total number of records is:84,665
+there were 79,216 normal addressses
