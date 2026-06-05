@@ -1,1 +1,10 @@
 output/
+
+feeback.txt
+paper.tex
+paper.pdf
+project_proposal-1.pdf
+
+subgroup_descriptions/infomap_syflow/
+subgroup_descriptions/louvain_syflow/
+subgroup_descriptions/*.csv

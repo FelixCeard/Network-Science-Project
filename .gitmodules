@@ -1,0 +1,3 @@
+[submodule "subgroup_descriptions/syflow"]
+	path = subgroup_descriptions/syflow
+	url = https://github.com/nilspwalter/syflow.git

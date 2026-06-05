@@ -5,9 +5,19 @@ description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.13"
 dependencies = [
+    "flowtorch>=0.3.0",
+    "gmpy2>=2.3.0",
+    "infomap>=2.11.0",
     "matplotlib>=3.10.9",
+    "matplotlib-venn>=1.1.2",
     "networkx>=3.6.1",
+    "numba>=0.65.1",
     "pandas>=3.0.3",
+    "pysubgroup>=0.8.0",
     "python-louvain>=0.16",
+    "scikit-learn>=1.6.0",
     "scipy>=1.17.1",
+    "seaborn>=0.13.2",
+    "torch>=2.6.0",
+    "tqdm>=4.67.0",
 ]
