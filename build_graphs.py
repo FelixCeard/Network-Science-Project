@@ -250,7 +250,7 @@ def write_sample_outputs(transactions: pd.DataFrame, sample_size: int = 10_000) 
 def write_sample_graph_visualization(
     undirected_edges: pd.DataFrame,
     node_labels: pd.DataFrame,
-    max_edges: int = 300,
+    max_edges: int = 1000,
 ) -> None:
 
     """
@@ -411,7 +411,7 @@ def main() -> None:
     print()
     print(stats.T.to_string(header=False))
     print()
-    print(f"Wrote cleaned transactions to: {transactions_out:.0f}")
+    print(f"Wrote cleaned transactions to: {transactions_out}")
     print(f"Wrote directed edge list to: {edges_directed_out}")
     print(f"Wrote undirected edge list to: {edges_undirected_out}")
     print(f"Wrote node labels to: {node_labels_out}")
